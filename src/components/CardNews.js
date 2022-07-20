@@ -1,7 +1,7 @@
 export const CardNews = ({ image, title, description, link }) => {
   return (
     <article className='w-[312px] h-[338px] bg-[#333] rounded-md cursor-pointer'>
-      <a href={link} target='_blank'>
+      <a href={link} target='_blank' rel='noreferrer'>
         <img
           src={image.url}
           alt={image.name}
