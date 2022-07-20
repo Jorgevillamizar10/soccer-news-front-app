@@ -4,7 +4,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang='es'>
-        <Head>
+        <Head
+          title='UNET project - Programacion II'
+          about='Jorge Villamizar and Carlota Lasa'
+        >
           <link
             rel='apple-touch-icon'
             sizes='180x180'
