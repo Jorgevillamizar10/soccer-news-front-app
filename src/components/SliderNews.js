@@ -11,7 +11,7 @@ export const SliderNews = () => {
       id='breking_news'
     >
       <div className='container'>
-        <h2 className='text-white font-bold text-3xl pl-1 mb-5'>
+        <h2 className='text-white font-bold text-3xl pl-8 lg:pl-1 mb-5'>
           Breaking News
         </h2>
         <Swiper

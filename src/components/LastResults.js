@@ -7,14 +7,14 @@ export const LastResults = () => {
       className='w-full h-auto bg-[#333] flex items-center justify-center py-12'
     >
       <div className='container'>
-        <h2 className='text-white font-bold text-3xl pl-1 mb-5'>
+        <h2 className='text-white font-bold text-3xl pl-8 lg:pl-1 mb-5'>
           Last Results
         </h2>
-        <div className='w-full grid gap-8 grid-cols-3 mt-8'>
+        <div className='w-full grid gap-8  grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-8'>
           {resultsData.map((game, index) => (
             <div
               key={index}
-              className='flex flex-col items-center justify-center bg-[#292929]  w-[410px] h-[150px] mx-auto'
+              className='flex flex-col items-center justify-center bg-[#292929] w-[90%] sm:w-[410px] h-[150px] mx-auto'
             >
               <div className='flex items-center justify-around w-[90%] p-x'>
                 <img

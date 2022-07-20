@@ -1,6 +1,14 @@
-export const CardNews = ({ image, title, description, link }) => {
+export const CardNews = ({
+  image,
+  title,
+  description,
+  link,
+  customClass = ''
+}) => {
   return (
-    <article className='w-[312px] h-[338px] bg-[#333] rounded-md cursor-pointer'>
+    <article
+      className={`w-[312px] h-[338px] bg-[#333] rounded-md cursor-pointer ${customClass}`}
+    >
       <a href={link} target='_blank' rel='noreferrer'>
         <img
           src={image.url}
